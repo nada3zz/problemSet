@@ -14,7 +14,7 @@ function removeDuplicates (sortedArr) {
     for (let i= 0; i < sortedArr.length; i++) {
         if (sortedArr[i] != sortedArr[currPtr]) {
             currPtr++;
-            arr[currPtr] = arr[i];
+            sortedArr[currPtr] = sortedArr[i];
         }
     };
     
